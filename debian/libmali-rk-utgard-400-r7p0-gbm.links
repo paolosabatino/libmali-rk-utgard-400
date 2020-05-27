@@ -1,0 +1,14 @@
+#! /usr/bin/dh-exec
+usr/lib/${DEB_HOST_MULTIARCH}/libmali-utgard-400-r7p0-r0p0-gbm.so /opt/libmali-gbm/libMali.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libgbm.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libgbm.so.1
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libgbm.so.1.0.0
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libmali.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libMaliOpenCL.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libOpenCL.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libEGL.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libEGL.so.1
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libGLESv1_CM.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libGLESv1_CM.so.1
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libGLESv2.so
+/opt/libmali-gbm/libMali.so /opt/libmali-gbm/libGLESv2.so.2
