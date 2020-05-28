@@ -11,9 +11,9 @@ Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}
 Multi-Arch: same
-Provides: libgbm-dev, libegl-dev, libegl1-mesa-dev, libgles2-mesa-dev, opencl-c-headers
+Provides: libgbm-dev, libegl-dev, libegl1-mesa-dev, libgles2-mesa-dev, opencl-c-headers, libgles-dev, libgbm-dev
 #Conflicts: libgbm-dev, libegl1-mesa-dev, libgles2-mesa-dev, opencl-c-headers
-Replaces: libgbm-dev, libegl-dev, libegl1-mesa-dev, libgles2-mesa-dev, opencl-c-headers
+Replaces: libgbm-dev, libegl-dev, libegl1-mesa-dev, libgles2-mesa-dev, opencl-c-headers, libgles-dev, libgbm-dev
 Description: The mali library for Rockchip RK3288.
  .
  This package provides the development environment for compiling programs
